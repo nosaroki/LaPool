@@ -1,0 +1,25 @@
+SHELL
+
+find .type f \(-name "* ~" -o -name "#*#"\) -delete -print
+
+premier offset
+4donnees dans un fichier maique
+1 offset a partir de quand estce aue tu prends des donnees pour considerer le header ici ca commence a zero
+2 type de caracteres vu quon cherche une onnee ici chaine de carateres ici string
+3 valeur quon cherche ici des bytes
+4 message
+
+un fichier magique permetde
+
+git ls-files --others --ignored --exclude-standard
+
+find . -type f -name "*.sh" | xargs -n 1 basename -s '.sh'
+id $FT_USER -Gn | tr " " "," + annulation du retour a la ligne
+find . -type f,d | wc -l 
+
+C
+
+gcc -Wall -Wextra -Werror ft_print_reverse_alphabet.c && ./a.out
+gcc -Wall -Wextra -Werror ft_print_numbers.c | ./a.out
+
+
